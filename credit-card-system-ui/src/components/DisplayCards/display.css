@@ -1,0 +1,26 @@
+.display-cards .card-header {
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+.display-cards .card-table {
+	border: 1px solid gray;
+	border-spacing: 0;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.display-cards .card-table th,
+.display-cards .card-table td {
+	border: 1px solid gray;
+	text-align: center;
+	padding: 10px;
+}
+
+.display-cards .card-table th {
+	background-color: lightgray;
+}
+
+.display-cards .negative-balance {
+	color: red;
+}

@@ -1,0 +1,46 @@
+.add-card .card-header {
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+.form-div {
+	display: inline-block;
+	width: 400px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.form-div .form-label {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.form-div .form-input {
+	border: 1px solid gray;
+	box-sizing: border-box;
+	display: block;
+	padding: 10px 15px;
+	width: 100%;
+}
+
+.form-div .form-error {
+	margin: 10px 0 0;
+	color: red;
+}
+
+.form-div .form-button {
+	background-color: lightgray;
+	border: 1px solid gray;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	margin-top: 10px;
+	padding: 7px 25px;
+}
+
+.form-div .form-button:active,
+.form-div .form-button:hover,
+.form-div .form-button:focus {
+	background-color: gray;
+}
